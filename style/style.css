@@ -11,6 +11,10 @@
     scroll-behavior: smooth;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 h1,h2 {
     font-family: "Bebas Neue";
     letter-spacing: .05rem;
@@ -47,11 +51,9 @@ header img {
     text-decoration: none;
 }
 
-main {
-    
+main {    
     display: flex;
-    flex-direction: column;    
-    
+    flex-direction: column;        
 }
 
 .formSection {
