@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    color: #fff;    
+    
+}
+
+ :root {
+    font-size: 16px;
+    font-family: "roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1,h2 {
+    font-family: "Bebas Neue";
+    letter-spacing: .05rem;
+    font-size: clamp( 1.5rem, 2.2vw, 2.8rem);
+}
+
+p {
+    font-size: clamp( 1rem, 1.2vw, 1.5rem);
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 5rem;
+    background-color: #333533;    
+}
+
+header img {
+    max-width: 5vw;    
+}
+
+#navOptions {
+    display: flex;
+    gap: 2.5rem;
+}
+
+#navOptions li, a{
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1366px;
+    display: flex;
+    flex-direction: column;    
+    
+}
+
+.formSection {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;   
+    justify-content: center;    
+    gap: 1rem;    
+    background-image: url('../img/BG\ Ini\ Desk\ 1920x880\ 1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10rem 5rem;
+}
+
+.formSection h1, p {
+    width: 50%;
+}
+
+#leadForm {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: .4rem;
+}
+
+#leadForm input, button{
+    padding: .6rem;
+    border-radius: 10px;
+}
+
+#leadForm button{
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.aboutSection {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;    
+    justify-content: center;
+    align-items: last baseline;   
+    gap: 1rem;   
+    height: 100vh;    
+    background-image: url('../img/bg-especialist-sec2-1920x980px.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+    padding: 18rem 5rem;
+}
+
+.aboutSection p {
+    white-space: pre-line;
+}
+
+
+.contactSection {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333533;
+    padding: 1rem 5rem;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;    
+}
+
+.socialMmedia {
+    display: flex;    
+    gap: .5rem;    
+}
+
+#logoFooter {
+    width: 80px;
+    height: 80px;
+}
+
+.socialMmedia img{
+    width: 30px;
+    height: 30px;
+}
+
+.privacityTerms p {
+    width: 100%;
+}
+
+
+@media (max-width: 768px){
+    .formSection {
+       padding: 3rem 5rem;
+       min-height: 70vh;
+       background-position: calc(50% - 80px);
+       overflow-x: hidden;
+    }
+
+    .aboutSection{
+        padding: 3rem 5rem;
+        background-position: calc(50% + 120px);
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 600px){
+    body {
+        min-width: 100%;
+    }
+
+    .formSection {
+        min-height: 140vh;
+        min-width: 100vw;
+       background-image: url(../img/BG\ Ini\ mibile\ 600x900\ 1.png);
+       background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 5rem 3.5rem;
+        
+    }
+
+    .formSection h1, p {
+        width: 100%;
+        text-align: center;
+    }
+
+    #leadForm {        
+        width: 100%;        
+    }
+
+    .aboutSection {
+        background-image: url(../img/bg-mobile-768x880.png);
+        background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+         justify-content: flex-start;
+         align-items: center;
+         padding: 5rem 3.5rem;
+         min-height: 105vh;
+     }
+}
+
+
+@media (max-width: 480px){
+    .formSection {       
+       min-height: 155vh;
+       padding: 4rem 2rem;    
+    }
+
+    .aboutSection{
+        min-height: 125vh;
+        padding: 3rem 2rem;     
+    }
+}
+
+@media (max-width: 480px){
+    .formSection {       
+       min-height: 165vh;        
+    }
+
+    .aboutSection{
+        min-height: 145vh;          
+    }
+}
