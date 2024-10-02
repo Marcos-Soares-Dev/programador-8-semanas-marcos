@@ -43,13 +43,18 @@ header img {
 
 #navOptions {
     display: flex;
-    gap: 2.5rem;
+    gap: 2.5rem;     
 }
 
 #navOptions li, a{
     list-style: none;
     color: #fff;
     text-decoration: none;
+    transition: text-decoration 0.5s ease;
+}
+
+#navOptions a:hover{
+    text-decoration: underline;
 }
 
 main {    
