@@ -91,6 +91,10 @@ main {
     width: 50%;
 }
 
+.formSection i {
+    color: red;
+}
+
 #leadForm {
     display: flex;
     flex-direction: column;
