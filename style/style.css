@@ -162,6 +162,10 @@ main {
     width: 100%;
 }
 
+.footerSpan {
+    white-space: pre-line;
+}
+
 
 @media (max-width: 768px){
     .formSection {
@@ -238,6 +242,20 @@ main {
 
 
 @media (max-width: 480px){
+    
+    
+    header {        
+        padding: 0rem 2rem;        
+    }
+    
+    header img {
+        max-width: 5vw; 
+    }
+    
+    header img {
+        max-width: 10vw; 
+    }
+    
     .formSection {       
        min-height: 155vh;
        padding: 7rem 2rem;    
