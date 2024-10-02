@@ -15,7 +15,7 @@ html, body {
     overflow-x: hidden;
 }
 
-h1,h2 {
+h1,h2{
     font-family: "Bebas Neue";
     letter-spacing: .05rem;
     font-size: clamp( 1.5rem, 2.2vw, 2.8rem);
@@ -32,12 +32,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0rem 5rem;
-    background-color: #333533;
+    background: linear-gradient(90deg, rgba(6,15,0,1) 0%, rgba(9,27,0,1) 35%, rgba(11,31,0,1) 100%);
     width: 100vw;
 }
 
 header img {
-    max-width: 5vw;    
+    max-width: 5vw; 
 }
 
 #navOptions {
@@ -68,6 +68,17 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     padding: 10rem 5rem;
+}
+
+.degrade{
+    background: linear-gradient(90deg, #ffffff, #4ea9ff, #00d084);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-family: "Bebas Neue";
+    letter-spacing: .05rem;
+    font-size: clamp( 1.5rem, 2.2vw, 2.8rem);
 }
 
 .formSection h1, p {
@@ -121,7 +132,7 @@ main {
     height: auto;
     justify-content: space-between;
     align-items: center;
-    background-color: #333533;
+    background-color: #081300;
     padding: 1rem 5rem;
 }
 
@@ -156,14 +167,30 @@ main {
        padding: 3rem 5rem;
        min-height: 70vh;
        background-position: calc(50% - 80px);
-       
+    }
+
+    .formSection h1{
+        width: 54%;        
     }
 
     .aboutSection{
         padding: 3rem 5rem;
         background-position: calc(50% + 120px);
-        
     }
+
+    header img {
+        max-width: 6vw; 
+    }
+
+    .contactSection {       
+        padding: 1rem 2rem;
+        width: 100%;       
+}
+
+.contactSection p, .footerSpan{    
+    white-space: pre-line;
+ }
+
 }
 
 @media (max-width: 600px){
@@ -201,6 +228,11 @@ main {
          padding: 5rem 3.5rem;
          min-height: 105vh;
      }
+
+     .contactSection p, .footerSpan{
+       font-size: 14px;
+       white-space: pre-line;
+    }
 }
 
 
@@ -214,14 +246,25 @@ main {
         min-height: 125vh;
         padding: 3rem 2rem;     
     }
-}
 
-@media (max-width: 480px){
-    .formSection {       
-       min-height: 165vh;        
+    .contactSection {
+        padding: 1rem 1rem;        
+     }
+
+    .contactSection p, .footerSpan{
+        font-size: 12px;
+        white-space: pre-line;
+     }
+
+     .degrade{
+        background: linear-gradient(90deg, #ffffff, #4ea9ff, #00d084);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+      font-family: "Bebas Neue";
+        letter-spacing: .05rem;
+        font-size: clamp( 1.5rem, 2.2vw, 2.8rem);
     }
 
-    .aboutSection{
-        min-height: 145vh;          
-    }
 }
