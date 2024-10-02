@@ -348,6 +348,10 @@ main {
     header img {
         max-width: 12vw; 
     }
+
+    #navOptions {
+        gap: 2rem;
+    }
     
     .formSection {       
         min-height: 140vh;
