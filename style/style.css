@@ -262,7 +262,7 @@ main {
     }
 
     .aboutSection{
-        min-height: 125vh;
+        min-height: 110vh;
         padding: 3rem 2rem;     
     }
 
@@ -323,3 +323,23 @@ main {
     }
 }
 
+@media (max-width: 360px){    
+    .formSection {       
+        min-height: 185vh;           
+     }
+
+     .aboutSection{
+        min-height: 140vh;            
+    }
+           
+    }
+
+@media (max-width: 320px){    
+    .formSection {       
+        min-height: 200vh;           
+     }
+
+     .aboutSection{
+        min-height: 155vh;            
+    }           
+    }
