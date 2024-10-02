@@ -335,6 +335,14 @@ main {
     }
 
 @media (max-width: 320px){    
+    header {        
+        padding: 0rem 1rem;        
+    }
+
+    header img {
+        max-width: 12vw; 
+    }
+    
     .formSection {       
         min-height: 200vh;           
      }
