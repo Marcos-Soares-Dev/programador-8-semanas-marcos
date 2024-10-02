@@ -203,7 +203,7 @@ main {
     
 
     .formSection {
-        min-height: 140vh;
+        min-height: 125vh;
         min-width: 100%;
        background-image: url(../img/BG\ Ini\ mibile\ 600x900\ 1.png);
        background-size: cover;
@@ -211,7 +211,10 @@ main {
         background-repeat: no-repeat;
         justify-content: flex-start;
         align-items: center;
-        padding: 8rem 3.5rem;        
+        padding: 8rem 3.5rem;
+        background-position: bottom;
+        background-size: auto;
+        background-color: #000;    
     }
 
     .formSection h1, p {
@@ -231,7 +234,10 @@ main {
          justify-content: flex-start;
          align-items: center;
          padding: 5rem 3.5rem;
-         min-height: 105vh;
+         min-height: 103vh;
+         background-position: bottom;
+        background-size: auto;
+        background-color: #000; 
      }
 
      .contactSection p, .footerSpan{
@@ -257,13 +263,13 @@ main {
     }
     
     .formSection {       
-       min-height: 155vh;
-       padding: 7rem 2rem;    
+       min-height: 125vh;
+       padding: 7rem 2rem;          
     }
 
     .aboutSection{
-        min-height: 110vh;
-        padding: 3rem 2rem;     
+        min-height: 105vh;
+        padding: 3rem 2rem;             
     }
 
     .contactSection {
@@ -325,11 +331,11 @@ main {
 
 @media (max-width: 360px){    
     .formSection {       
-        min-height: 185vh;           
+        min-height: 130vh;                
      }
 
      .aboutSection{
-        min-height: 140vh;            
+        min-height: 115vh;
     }
            
     }
@@ -344,10 +350,12 @@ main {
     }
     
     .formSection {       
-        min-height: 200vh;           
+        min-height: 140vh;
      }
 
+
+
      .aboutSection{
-        min-height: 155vh;            
+        min-height: 128vh;
     }           
     }
