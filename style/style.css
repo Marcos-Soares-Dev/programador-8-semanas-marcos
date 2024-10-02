@@ -350,11 +350,11 @@ main {
 
 @media (max-width: 360px){    
     .formSection {       
-        min-height: 141vh;                
+        min-height: 146vh;                
      }
 
      .aboutSection{
-        min-height: 125vh;
+        min-height: 130vh;
     }
            
     }
@@ -373,12 +373,12 @@ main {
     }
     
     .formSection {       
-        min-height: 150vh;
+        min-height: 155vh;
      }
 
 
 
      .aboutSection{
-        min-height: 138vh;
+        min-height: 143vh;
     }           
     }
